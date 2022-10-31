@@ -1,3 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	
+	background-color: tan;
+	
+}
+
+.banner {
+	
+	width:auto;
+	height: 200px;
+	background-color: white;
+	position: relative;
+		
+}
