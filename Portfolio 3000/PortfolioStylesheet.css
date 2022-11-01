@@ -11,7 +11,7 @@ body {
 	
 	background-attachment: fixed;
 	
-	background-image: linear-gradient(#b3d1ff, #99c2ff, #80b3ff, #0066ff);
+	background-image: linear-gradient(to top, #b3d1ff, #99c2ff, #80b3ff, #0066ff);
 	
 }
 
@@ -29,7 +29,7 @@ body {
 	width: auto;
 	height: 100px;
 	background-color: white;
-	box-shadow: 0px 1px 20px;
+	box-shadow: 0px 0.5px 4px;
 	position: relative;
 		
 }
