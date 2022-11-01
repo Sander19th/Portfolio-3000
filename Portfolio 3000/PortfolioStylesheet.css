@@ -2,14 +2,20 @@
 /* CSS Document */
 
 body {
-	height: 100%;
-	margin: 0;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-image: linear-gradient(#b3d1ff, #99c2ff, #80b3ff);
 	
+	height: 100%;
+	
+	margin: 0;
+	
+	background-repeat: no-repeat;
+	
+	background-attachment: fixed;
+	
+	background-image: linear-gradient(#b3d1ff, #99c2ff, #80b3ff, #0066ff);
 	
 }
+
+	
 
 .Triangle {
 	
@@ -20,9 +26,10 @@ body {
 
 .banner {
 	
-	width:auto;
-	height: 125px;
+	width: auto;
+	height: 100px;
 	background-color: white;
+	box-shadow: 0px 1px 20px;
 	position: relative;
 		
 }
