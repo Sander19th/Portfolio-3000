@@ -15,14 +15,6 @@ body {
 	
 }
 
-	
-
-.Triangle {
-	
-	border-bottom: 100px black;
-	border-right: 100px grey;
-	
-}
 
 .banner {
 	
@@ -35,11 +27,14 @@ body {
 		
 }
 
-.InfoBox {
+#InfoBox {
 	
-	width: auto;
-	height: auto;
-	background-color: white;
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: ;
+	
+	
 	
 	
 }
