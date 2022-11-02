@@ -16,10 +16,10 @@ body {
 }
 
 
-.banner {
+.header {
 	
 	width: auto;
-	height: 80px;
+	height: 60px;
 	background-color: white;
 	box-shadow: 0px 0px 0px;
 	;
@@ -27,11 +27,11 @@ body {
 		
 }
 
-#InfoBox {
+#buttomheader {
 	
-	width: 200px;
-	height: 200px;
-	background-color: white;
+	width: auto;
+	height: 50px;
+	background-color: grey;
 	left: 0px right 0px top 200px;
 	
 	
