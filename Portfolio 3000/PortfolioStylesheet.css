@@ -6,6 +6,8 @@
 	letter-spacing: 3px;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	
 }
 
 .wrapper {
@@ -17,11 +19,16 @@
 body {
 	
 	height: 100%;
+	min-height: 100vh;
+	/* VH stands for View height and is equal to percentage 100vh = 100% */
+	overflow-x: hidden;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-image: linear-gradient(to top, #99c2ff, #80b3ff, #0066ff);
-	
+	position: relative;
+	padding-bottom: 1150px;
+
 }
 
 
@@ -33,6 +40,7 @@ body {
 	text-align: center;
 	color: black;
 	padding: 10px;
+
 }
 
 #buttomheader {
@@ -41,6 +49,7 @@ body {
 	height: 30px;
 	background-color: white;	
 	padding: 0px;
+	
 	
 }
 
@@ -68,11 +77,13 @@ body {
 .Happy_Alex {
 	border-radius: 50px;
 	padding-top: 0px;
+	height: 50%;
 	width: 50%;
 	margin: 100px;
 	
 }
 
+/* For desktops */
 @media only screen and (min-width: 1000px) {
 	
 	.wrapper {
@@ -106,8 +117,18 @@ body {
 	float: right;
 	
 }
+	
+
+.footer {
+	background-color: white;
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+ }
 
 }
+
 
 .container1 {
 	
@@ -270,105 +291,38 @@ body {
 .wrapper2 {
 	margin: 0 auto;
 	width: 100%;
-}
 
-.sunset-blender{
-	width: 500px;
-	height: 220px;
-	margin: 50px;
-	background-image: url("Images/Sunset_with_bloom.png");
-	background-size: 100%;
-	/* Background-size is used to fill the box set with the values; 500px and 300px. */
-	background-repeat: no-repeat;
-	/* Prevents picture from multiplying upon changing the precentage of background-size */
-	
+ }
+
+
+
+#InfoBox {
+	font-size: 16px;
+	margin: 10px;
+	line-height: 24px;
+	padding: 20px 30px 0px;
 	
 }
 
-.Shiny_moon {
+.main {
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	width: 100vw;
+	/* VW = View width like VH = View Height */
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+	column-gap: 10px;
+	row-gap: 10px;
+	padding-bottom: 10px;
+
+}
+
+img { 
+width: 300px;
+height: 300px;
+object-fit: cover;
+object-position: center;
 	
-	width: 500px;
-	height: 220px;
-	margin: 50px;
-	background-image: url("Images/Shiny_Moon.png");
-	background-size: 100%;
-	/* Background-size is used to fill the box set with the values; 500px and 300px. */
-	background-repeat: no-repeat;
-	/* Prevents picture from multiplying upon changing the precentage of background-size */
-
-}
-
-.Donut_look_at_this_photo {
-	
-	width: 500px;
-	height: 370px;
-	margin: 50px;
-	background-image: url("Images/Donut _look_at_this_photo.JPG");
-	background-size: 100%;
-	/* Background-size is used to fill the box set with the values; 500px and 300px. */
-	background-repeat: no-repeat;
-	/* Prevents picture from multiplying upon changing the precentage of background-size */
-
-}
-
-.First_canyon_ever {
-	
-	width: 500px;
-	height: 300px;
-	margin: 50px;
-	background-image: url("Images/First_canyon_ever.png");
-	background-size: 100%;
-	/* Background-size is used to fill the box set with the values; 500px and 300px. */
-	background-repeat: no-repeat;
-	/* Prevents picture from multiplying upon changing the precentage of background-size */
-
-}
-
-.First_canyon_ever_with_water {
-	
-	width: 500px;
-	height: 300px;
-	margin: 50px;
-	background-image: url("Images/First_canyon_with_water.png");
-	background-size: 100%;
-	/* Background-size is used to fill the box set with the values; 500px and 300px. */
-	background-repeat: no-repeat;
-	/* Prevents picture from multiplying upon changing the precentage of background-size */
-
-}
-
-.Landscaping_with_basser_bad_skies {
-	width: 500px;
-	height: 300px;
-	margin: 50px;
-	background-image: url("Images/Landscaping_with_basser_bad_skies.png");
-	background-size: 100%;
-	/* Background-size is used to fill the box set with the values; 500px and 300px. */
-	background-repeat: no-repeat;
-	/* Prevents picture from multiplying upon changing the precentage of background-size */
-
-}
-
-.Landscaping_with_basser {
-	width: 500px;
-	height: 300px;
-	margin: 50px;
-	background-image: url("Images/Landscaping_with_basser.png");
-	background-size: 100%;
-	/* Background-size is used to fill the box set with the values; 500px and 300px. */
-	background-repeat: no-repeat;
-	/* Prevents picture from multiplying upon changing the precentage of background-size */
-
-}
-
-.Almost_heaven {
-	width: 500px;
-	height: 300px;
-	margin: 50px;
-	background-image: url("Images/Almost_heaven.png");
-	background-size: 100%;
-	/* Background-size is used to fill the box set with the values; 500px and 300px. */
-	background-repeat: no-repeat;
-	/* Prevents picture from multiplying upon changing the precentage of background-size */
-
 }
