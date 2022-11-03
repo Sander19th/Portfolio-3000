@@ -17,7 +17,6 @@
 body {
 	
 	height: 100%;
-	
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -226,10 +225,10 @@ body {
 	width: 150px;
 	height: 30px;
 	border: none;
-	color: white;
-	background-color: grey;
+	color: black;
+	background-color: white;
 	border-radius: 2px;
-	box-shadow: inset 0 0 0 0 white;
+	box-shadow: inset 0 0 0 0 grey;
 	transition: ease-out 0.3s;
 	font-size: 1.2rem;
 	/* rem mean 16px, so if 2rem = 16*2 = 32px */
@@ -240,7 +239,7 @@ body {
 }
 
 .btn-3:hover {
-		color: black;
+		color: white;
 		cursor: pointer;
 		
 		
@@ -255,7 +254,7 @@ body {
 	bottom: 0%;
 	opacity: 0;
 	content: "";
-	background-color: white;
+	background-color: grey;
 
 	 }
 
