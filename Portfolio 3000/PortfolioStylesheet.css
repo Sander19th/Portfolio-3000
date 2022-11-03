@@ -1,14 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-*{
+* {
 	font-family: 'Josefin Sans', sans-serif;
 	letter-spacing: 3px;
+	margin: 0;
+	padding: 0;
 }
 
 .wrapper {
 	margin: 0 auto;
-	width: 1000px;
+	width: 100%;
 	
 }
 
@@ -32,10 +34,7 @@ body {
 	box-shadow: 0px 0px 0px;
 	text-align: center;
 	color: black;
-	
-	
-	
-		
+	padding: 10px;
 }
 
 #buttomheader {
@@ -43,8 +42,35 @@ body {
 	width: auto;
 	height: 30px;
 	background-color: grey;	
+	padding: 0px;
 	
 }
+
+.info {
+	width: 100%;
+}
+
+.info h2{
+	font-size: 50px;
+	padding: 30px 30px 20px	
+		/* First 30px(From the top) Second 30px(From the left and right side) Third 30px(From the bottom)*/
+	
+	
+}
+
+.info p{
+	font-size: 16px;
+	padding: 0px 30px 20px
+		/* First 0px(From the top) Second 30px(From the left and right side) Third 30px(From the bottom)*/
+		
+}
+
+.Happy_Alex {
+	
+	
+}
+
+
 
 .container1 {
 	
@@ -206,6 +232,7 @@ body {
 .sunset-blender{
 	width: 500px;
 	height: 220px;
+	margin: 50px;
 	background-image: url("Images/Sunset_with_bloom.png");
 	background-size: 100%;
 	/* Background-size is used to fill the box set with the values; 500px and 300px. */
@@ -216,8 +243,10 @@ body {
 }
 
 .Shiny_moon {
+	
 	width: 500px;
 	height: 220px;
+	margin: 50px;
 	background-image: url("Images/Shiny_Moon.png");
 	background-size: 100%;
 	/* Background-size is used to fill the box set with the values; 500px and 300px. */
@@ -227,8 +256,10 @@ body {
 }
 
 .Donut_look_at_this_photo {
+	
 	width: 500px;
 	height: 370px;
+	magrin: 50px;
 	background-image: url("Images/Donut _look_at_this_photo.JPG");
 	background-size: 100%;
 	/* Background-size is used to fill the box set with the values; 500px and 300px. */
@@ -238,8 +269,10 @@ body {
 }
 
 .First_canyon_ever {
+	
 	width: 500px;
 	height: 300px;
+	margin: 50px;
 	background-image: url("Images/First_canyon_ever.png");
 	background-size: 100%;
 	/* Background-size is used to fill the box set with the values; 500px and 300px. */
@@ -249,8 +282,10 @@ body {
 }
 
 .First_canyon_ever_with_water {
+	
 	width: 500px;
 	height: 300px;
+	margin: 50px;
 	background-image: url("Images/First_canyon_with_water.png");
 	background-size: 100%;
 	/* Background-size is used to fill the box set with the values; 500px and 300px. */
@@ -262,6 +297,7 @@ body {
 .Landscaping_with_basser_bad_skies {
 	width: 500px;
 	height: 300px;
+	margin: 50px;
 	background-image: url("Images/Landscaping_with_basser_bad_skies.png");
 	background-size: 100%;
 	/* Background-size is used to fill the box set with the values; 500px and 300px. */
@@ -273,6 +309,7 @@ body {
 .Landscaping_with_basser {
 	width: 500px;
 	height: 300px;
+	margin: 50px;
 	background-image: url("Images/Landscaping_with_basser.png");
 	background-size: 100%;
 	/* Background-size is used to fill the box set with the values; 500px and 300px. */
@@ -284,6 +321,7 @@ body {
 .Almost_heaven {
 	width: 500px;
 	height: 300px;
+	margin: 50px;
 	background-image: url("Images/Almost_heaven.png");
 	background-size: 100%;
 	/* Background-size is used to fill the box set with the values; 500px and 300px. */
