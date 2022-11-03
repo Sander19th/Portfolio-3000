@@ -38,7 +38,7 @@ body {
 
 #buttomheader {
 	
-	width: auto;
+	width: 100%;
 	height: 30px;
 	background-color: grey;	
 	padding: 0px;
@@ -234,7 +234,6 @@ body {
 
 
 .wrapper2 {
-	
 	margin: 0 auto;
 	width: 100%;
 }
